@@ -1,0 +1,85 @@
+<svg class="img-responsive" id="edition" width="727pt" height="256pt"
+ viewBox="0.00 0.00 727.00 256.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 252)">
+<title>workflow</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-252 723,-252 723,4 -4,4"/>
+<!-- place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc -->
+<g id="node1" class="node">
+<title>place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc</title>
+<ellipse fill="#add8e6" stroke="#333333" cx="57.5" cy="-123.5" rx="57.5" ry="57.5"/>
+<text text-anchor="middle" x="57.5" y="-121.3" font-family="Arial" font-size="9.00" fill="#000000">new</text>
+</g>
+<!-- transition_da38860cb875cb64092e402d80d9fe29c4865b18 -->
+<g id="node5" class="node">
+<title>transition_da38860cb875cb64092e402d80d9fe29c4865b18</title>
+<polygon fill="none" stroke="#333333" points="266,-181 151,-181 151,-66 266,-66 266,-181"/>
+<text text-anchor="middle" x="208.5" y="-121.3" font-family="Arial" font-size="9.00" fill="#000000">close</text>
+</g>
+<!-- place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc&#45;&gt;transition_da38860cb875cb64092e402d80d9fe29c4865b18 -->
+<g id="edge1" class="edge">
+<title>place_c2a6b03f190dfb2b4aa91f8af8d477a9bc3401dc&#45;&gt;transition_da38860cb875cb64092e402d80d9fe29c4865b18</title>
+<path fill="none" stroke="#333333" d="M115.0174,-123.5C125.0246,-123.5 135.4794,-123.5 145.6214,-123.5"/>
+<polygon fill="#333333" stroke="#333333" points="145.8926,-125.2501 150.8925,-123.5 145.8925,-121.7501 145.8926,-125.2501"/>
+</g>
+<!-- place_ea88fbaa99b73225752e2ef67593f775848160ad -->
+<g id="node2" class="node">
+<title>place_ea88fbaa99b73225752e2ef67593f775848160ad</title>
+<ellipse fill="none" stroke="#333333" cx="359.5" cy="-123.5" rx="57.5" ry="57.5"/>
+<text text-anchor="middle" x="359.5" y="-121.3" font-family="Arial" font-size="9.00" fill="#000000">closed</text>
+</g>
+<!-- transition_ebfb55f4432b592119a10592e4f26272cc72359e -->
+<g id="node6" class="node">
+<title>transition_ebfb55f4432b592119a10592e4f26272cc72359e</title>
+<polygon fill="none" stroke="#333333" points="568,-248 453,-248 453,-133 568,-133 568,-248"/>
+<text text-anchor="middle" x="510.5" y="-188.3" font-family="Arial" font-size="9.00" fill="#000000">archive</text>
+</g>
+<!-- place_ea88fbaa99b73225752e2ef67593f775848160ad&#45;&gt;transition_ebfb55f4432b592119a10592e4f26272cc72359e -->
+<g id="edge3" class="edge">
+<title>place_ea88fbaa99b73225752e2ef67593f775848160ad&#45;&gt;transition_ebfb55f4432b592119a10592e4f26272cc72359e</title>
+<path fill="none" stroke="#333333" d="M412.3125,-146.9333C423.8749,-152.0637 436.2199,-157.5413 448.1166,-162.82"/>
+<polygon fill="#333333" stroke="#333333" points="447.5476,-164.482 452.8277,-164.9103 448.9671,-161.2827 447.5476,-164.482"/>
+</g>
+<!-- transition_e540cdd1328b2b21e29a95405c301b9313b7c346 -->
+<g id="node7" class="node">
+<title>transition_e540cdd1328b2b21e29a95405c301b9313b7c346</title>
+<polygon fill="none" stroke="#333333" points="568,-115 453,-115 453,0 568,0 568,-115"/>
+<text text-anchor="middle" x="510.5" y="-55.3" font-family="Arial" font-size="9.00" fill="#000000">index</text>
+</g>
+<!-- place_ea88fbaa99b73225752e2ef67593f775848160ad&#45;&gt;transition_e540cdd1328b2b21e29a95405c301b9313b7c346 -->
+<g id="edge5" class="edge">
+<title>place_ea88fbaa99b73225752e2ef67593f775848160ad&#45;&gt;transition_e540cdd1328b2b21e29a95405c301b9313b7c346</title>
+<path fill="none" stroke="#333333" d="M412.3125,-100.4164C423.8749,-95.3626 436.2199,-89.9668 448.1166,-84.7669"/>
+<polygon fill="#333333" stroke="#333333" points="448.9471,-86.3139 452.8277,-82.7078 447.5453,-83.1068 448.9471,-86.3139"/>
+</g>
+<!-- place_48f0f92b349bd93701c099522beb009b85f43956 -->
+<g id="node3" class="node">
+<title>place_48f0f92b349bd93701c099522beb009b85f43956</title>
+<ellipse fill="none" stroke="#333333" cx="661.5" cy="-190.5" rx="57.5" ry="57.5"/>
+<text text-anchor="middle" x="661.5" y="-188.3" font-family="Arial" font-size="9.00" fill="#000000">archived</text>
+</g>
+<!-- place_243dd40c7d93e3eeafc8de650b5f2b434bdbcc40 -->
+<g id="node4" class="node">
+<title>place_243dd40c7d93e3eeafc8de650b5f2b434bdbcc40</title>
+<ellipse fill="none" stroke="#333333" cx="661.5" cy="-57.5" rx="57.5" ry="57.5"/>
+<text text-anchor="middle" x="661.5" y="-55.3" font-family="Arial" font-size="9.00" fill="#000000">indexed</text>
+</g>
+<!-- transition_da38860cb875cb64092e402d80d9fe29c4865b18&#45;&gt;place_ea88fbaa99b73225752e2ef67593f775848160ad -->
+<g id="edge2" class="edge">
+<title>transition_da38860cb875cb64092e402d80d9fe29c4865b18&#45;&gt;place_ea88fbaa99b73225752e2ef67593f775848160ad</title>
+<path fill="none" stroke="#333333" d="M266.0174,-123.5C276.0246,-123.5 286.4794,-123.5 296.6214,-123.5"/>
+<polygon fill="#333333" stroke="#333333" points="296.8926,-125.2501 301.8925,-123.5 296.8925,-121.7501 296.8926,-125.2501"/>
+</g>
+<!-- transition_ebfb55f4432b592119a10592e4f26272cc72359e&#45;&gt;place_48f0f92b349bd93701c099522beb009b85f43956 -->
+<g id="edge4" class="edge">
+<title>transition_ebfb55f4432b592119a10592e4f26272cc72359e&#45;&gt;place_48f0f92b349bd93701c099522beb009b85f43956</title>
+<path fill="none" stroke="#333333" d="M568.0174,-190.5C578.0246,-190.5 588.4794,-190.5 598.6214,-190.5"/>
+<polygon fill="#333333" stroke="#333333" points="598.8926,-192.2501 603.8925,-190.5 598.8925,-188.7501 598.8926,-192.2501"/>
+</g>
+<!-- transition_e540cdd1328b2b21e29a95405c301b9313b7c346&#45;&gt;place_243dd40c7d93e3eeafc8de650b5f2b434bdbcc40 -->
+<g id="edge6" class="edge">
+<title>transition_e540cdd1328b2b21e29a95405c301b9313b7c346&#45;&gt;place_243dd40c7d93e3eeafc8de650b5f2b434bdbcc40</title>
+<path fill="none" stroke="#333333" d="M568.0174,-57.5C578.0246,-57.5 588.4794,-57.5 598.6214,-57.5"/>
+<polygon fill="#333333" stroke="#333333" points="598.8926,-59.2501 603.8925,-57.5 598.8925,-55.7501 598.8926,-59.2501"/>
+</g>
+</g>
+</svg>

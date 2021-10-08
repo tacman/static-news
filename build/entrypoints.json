@@ -1,0 +1,160 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/app.js?13eda3b47108ae2c06b9"
+      ],
+      "css": [
+        "/build/app.css?b8e7dcf801a7d80debad"
+      ]
+    },
+    "article_list": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/article_list.js?005f04e678ab356dcf5a"
+      ]
+    },
+    "articles-table": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/articles-table.js?42314c328769f666cbfe"
+      ]
+    },
+    "sites": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/sites.js?8deb2948c8a9b71a0b3f"
+      ],
+      "css": [
+        "/build/sites.css?5a986843d0635457e4fb"
+      ]
+    },
+    "media": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/media.js?7c72eff301c23601e844"
+      ]
+    },
+    "edition": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/edition.js?b46347dc4159e20a9de4"
+      ],
+      "css": [
+        "/build/edition.css?5a986843d0635457e4fb"
+      ]
+    },
+    "js/siteShow": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/siteShow.js?a44eb252abc0aa25ee7e"
+      ]
+    },
+    "js/dashboard": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/dashboard.js?97ed6e25a1d6b9af4fd8"
+      ]
+    },
+    "js/headlines": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/headlines.js?0dfd52d66ea8ee5653de"
+      ],
+      "css": [
+        "/build/js/headlines.css?c826f891ab989c3f1747"
+      ]
+    },
+    "detailSlider": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/detailSlider.js?4709ecb460bb98f4fc40"
+      ]
+    },
+    "js/subscriptions": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/subscriptions.js?3ba0afafa8f5dfbd7553"
+      ]
+    },
+    "js/subscribe": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/subscribe.js?fa7efc5da3682b27fbce"
+      ]
+    },
+    "js/highlight": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/highlight.js?80c3e162c8a88f296315"
+      ]
+    },
+    "js/api-dt": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/api-dt.js?93e37e6593eb86aeb2ee"
+      ]
+    },
+    "js/media-edit": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/media-edit.js?e96341eb5990478abba3"
+      ]
+    },
+    "js/article-search": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/article-search.js?460de914d0bc7260fcf6"
+      ]
+    },
+    "js/articleEdit": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/articleEdit.js?c4fa424969e062ee8a5f"
+      ]
+    },
+    "js/profile": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/profile.js?1185a4bebfac50c4b820"
+      ]
+    },
+    "js/tag_category_loader": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/tag_category_loader.js?e584491dc0764de86c39"
+      ]
+    },
+    "js/select2Entity": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a",
+        "/build/js/select2Entity.js?b051a782e9386a9eaeed"
+      ]
+    },
+    "css/articleEdit": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a"
+      ],
+      "css": [
+        "/build/css/articleEdit.css?6192ef9eddffeb166da2"
+      ]
+    },
+    "css/news": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a"
+      ],
+      "css": [
+        "/build/css/news.css?c826f891ab989c3f1747"
+      ]
+    },
+    "css/jqrangeslider": {
+      "js": [
+        "/build/runtime.js?6e3f3c3a4c6f2dee3b4a"
+      ],
+      "css": [
+        "/build/css/jqrangeslider.css?78c15d4cb936f212bda3"
+      ]
+    }
+  }
+}

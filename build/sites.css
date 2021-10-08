@@ -1,0 +1,99 @@
+span.del {
+    color: #b00;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* also consider https://stackoverflow.com/questions/22429003/how-to-right-align-flex-item */
+.dataTables_filter {
+    margin-left: auto;
+    order: 2;
+}
+
+table.dataTable tbody tr.selected,
+table.dataTable tbody th.selected,
+table.dataTable tbody td.selected {
+    color: black;
+    background-color: #4CAF50;
+}
+div.dataTables_scrollHeadInner table.styled {
+    margin-bottom: 0;
+}
+
+.highlight {
+    background: #fe6;
+}
+
+.right {
+    text-align: right;
+}
+
+div.dataTables_length label {
+	float: left;
+	text-align: left;
+}
+
+div.dataTables_length select {
+	width: 75px;
+}
+
+div.dataTables_filter label {
+	float: right;
+}
+
+div.dataTables_info {
+	padding-top: 8px;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+
+table.table {
+	clear: both;
+	margin-bottom: 6px !important;
+}
+
+/* Copied this from .input-block-level in bootstrap.css because
+   input[type=search] styling ends up overriding some of .input-block-level */
+input.search-query {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  /* Make inputs at least the height of their button counterpart */
+
+  /* Makes inputs behave like true block-level elements */
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#headlines-limit {
+    width: auto;
+    float: right;
+}
+
+.site-selected {
+    background-color: #4CAF50;
+    background: none repeat scroll 0 0 #EBF4FB;
+    border-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    /*
+    padding: 15px 10px 10px;
+    */
+}
+
+.headline {
+    font-size: 12px;
+}
+
+.headline-selected {
+    font-weight: bold;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vc2l0ZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksV0FBVztJQUNYLGlCQUFpQjtJQUNqQixlQUFlO0FBQ25COztBQUVBLDRGQUE0RjtBQUM1RjtJQUNJLGlCQUFpQjtJQUNqQixRQUFRO0FBQ1o7O0FBRUE7OztJQUdJLFlBQVk7SUFDWix5QkFBeUI7QUFDN0I7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtDQUNDLFdBQVc7Q0FDWCxnQkFBZ0I7QUFDakI7O0FBRUE7Q0FDQyxXQUFXO0FBQ1o7O0FBRUE7Q0FDQyxZQUFZO0FBQ2I7O0FBRUE7Q0FDQyxnQkFBZ0I7QUFDakI7O0FBRUE7Q0FDQyxZQUFZO0NBQ1osU0FBUztBQUNWOztBQUVBO0NBQ0MsV0FBVztDQUNYLDZCQUE2QjtBQUM5Qjs7QUFFQTs2RUFDNkU7QUFDN0U7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLGdCQUFnQjtFQUNoQixnRUFBZ0U7O0VBRWhFLHVEQUF1RDs7RUFFdkQsOEJBQThCO0VBQzlCLDJCQUEyQjtFQUMzQiwwQkFBMEI7RUFDMUIsc0JBQXNCO0FBQ3hCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsMENBQTBDO0lBQzFDLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCOztLQUVDO0FBQ0w7O0FBRUE7SUFDSSxlQUFlO0FBQ25COztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNpdGVzLmNzcz81YTk4Njg0M2QwNjM1NDU3ZTRmYiIsInNvdXJjZXNDb250ZW50IjpbInNwYW4uZGVsIHtcbiAgICBjb2xvcjogI2IwMDtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi8qIGFsc28gY29uc2lkZXIgaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMvMjI0MjkwMDMvaG93LXRvLXJpZ2h0LWFsaWduLWZsZXgtaXRlbSAqL1xuLmRhdGFUYWJsZXNfZmlsdGVyIHtcbiAgICBtYXJnaW4tbGVmdDogYXV0bztcbiAgICBvcmRlcjogMjtcbn1cblxudGFibGUuZGF0YVRhYmxlIHRib2R5IHRyLnNlbGVjdGVkLFxudGFibGUuZGF0YVRhYmxlIHRib2R5IHRoLnNlbGVjdGVkLFxudGFibGUuZGF0YVRhYmxlIHRib2R5IHRkLnNlbGVjdGVkIHtcbiAgICBjb2xvcjogYmxhY2s7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzRDQUY1MDtcbn1cbmRpdi5kYXRhVGFibGVzX3Njcm9sbEhlYWRJbm5lciB0YWJsZS5zdHlsZWQge1xuICAgIG1hcmdpbi1ib3R0b206IDA7XG59XG5cbi5oaWdobGlnaHQge1xuICAgIGJhY2tncm91bmQ6ICNmZTY7XG59XG5cbi5yaWdodCB7XG4gICAgdGV4dC1hbGlnbjogcmlnaHQ7XG59XG5cbmRpdi5kYXRhVGFibGVzX2xlbmd0aCBsYWJlbCB7XG5cdGZsb2F0OiBsZWZ0O1xuXHR0ZXh0LWFsaWduOiBsZWZ0O1xufVxuXG5kaXYuZGF0YVRhYmxlc19sZW5ndGggc2VsZWN0IHtcblx0d2lkdGg6IDc1cHg7XG59XG5cbmRpdi5kYXRhVGFibGVzX2ZpbHRlciBsYWJlbCB7XG5cdGZsb2F0OiByaWdodDtcbn1cblxuZGl2LmRhdGFUYWJsZXNfaW5mbyB7XG5cdHBhZGRpbmctdG9wOiA4cHg7XG59XG5cbmRpdi5kYXRhVGFibGVzX3BhZ2luYXRlIHtcblx0ZmxvYXQ6IHJpZ2h0O1xuXHRtYXJnaW46IDA7XG59XG5cbnRhYmxlLnRhYmxlIHtcblx0Y2xlYXI6IGJvdGg7XG5cdG1hcmdpbi1ib3R0b206IDZweCAhaW1wb3J0YW50O1xufVxuXG4vKiBDb3BpZWQgdGhpcyBmcm9tIC5pbnB1dC1ibG9jay1sZXZlbCBpbiBib290c3RyYXAuY3NzIGJlY2F1c2VcbiAgIGlucHV0W3R5cGU9c2VhcmNoXSBzdHlsaW5nIGVuZHMgdXAgb3ZlcnJpZGluZyBzb21lIG9mIC5pbnB1dC1ibG9jay1sZXZlbCAqL1xuaW5wdXQuc2VhcmNoLXF1ZXJ5IHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBtaW4taGVpZ2h0OiAyOHB4O1xuICAvKiBNYWtlIGlucHV0cyBhdCBsZWFzdCB0aGUgaGVpZ2h0IG9mIHRoZWlyIGJ1dHRvbiBjb3VudGVycGFydCAqL1xuXG4gIC8qIE1ha2VzIGlucHV0cyBiZWhhdmUgbGlrZSB0cnVlIGJsb2NrLWxldmVsIGVsZW1lbnRzICovXG5cbiAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAtbW96LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIC1tcy1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xufVxuXG4jaGVhZGxpbmVzLWxpbWl0IHtcbiAgICB3aWR0aDogYXV0bztcbiAgICBmbG9hdDogcmlnaHQ7XG59XG5cbi5zaXRlLXNlbGVjdGVkIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNENBRjUwO1xuICAgIGJhY2tncm91bmQ6IG5vbmUgcmVwZWF0IHNjcm9sbCAwIDAgI0VCRjRGQjtcbiAgICBib3JkZXItY29sb3I6IHJlZDtcbiAgICBmb250LXNpemU6IDE0cHg7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgLypcbiAgICBwYWRkaW5nOiAxNXB4IDEwcHggMTBweDtcbiAgICAqL1xufVxuXG4uaGVhZGxpbmUge1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbn1cblxuLmhlYWRsaW5lLXNlbGVjdGVkIHtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
